@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex & Grid Dual-Puzzle Assignment</title>
+   
+    <style>
+        
+        body {
+            display: grid;
+        }
+
+        .page-section {
+            border: 1px solid black;
+        }
+
+
+        #faulty-piece {
+    
+        }
+
+
+        #flex-puzzle-container {
+            display: flex;
+           
+
+        }
+       
+       
+        #grid-puzzle-container {
+            display: grid;
+
+        }
+
+
+        .puzzle-piece {
+            margin: 0;
+            width: 150px;
+            height: 150px;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div class="page-section" id="header-info">
+        <h1>Your Name - Dual Puzzle Assignment</h1>
+        <p>Assignment Date: **[Insert Date Here]**</p>
+    </div>
+
+    ---
+
+    <div class="page-section" id="puzzle-area">
+       
+        <h2>Puzzle A: Solved with Flexbox</h2>
+        <div id="flex-puzzle-container">
+            <img src="images/setA-1.jpg" alt="Flex Puzzle Piece 1" class="puzzle-piece" id="flex-piece-1">
+            <img src="images/setA-2.jpg" alt="Flex Puzzle Piece 2" class="puzzle-piece" id="flex-piece-2">
+            <img src="images/setA-3.jpg" alt="Flex Puzzle Piece 3" class="puzzle-piece" id="flex-piece-3">
+            <img src="images/setA-4.jpg" alt="Flex Puzzle Piece 4" class="puzzle-piece" id="flex-piece-4">
+           
+            <img src="images/faulty-piece.jpg" alt="Extra Piece" class="puzzle-piece" id="faulty-piece">
+        </div>
+       
+        ---
+       
+        <h2>Puzzle B: Solved with CSS Grid</h2>
+        <div id="grid-puzzle-container">
+             <img src="images/setB-1.jpg" alt="Grid Puzzle Piece 1" class="puzzle-piece" id="grid-piece-1">
+            <img src="images/setB-2.jpg" alt="Grid Puzzle Piece 2" class="puzzle-piece" id="grid-piece-2">
+            <img src="images/setB-3.jpg" alt="Grid Puzzle Piece 3" class="puzzle-piece" id="grid-piece-3">
+            <img src="images/setB-4.jpg" alt="Grid Puzzle Piece 4" class="puzzle-piece" id="grid-piece-4">
+        </div>
+       
+    </div>
+
+    ---
+
+    <div class="page-section" id="info-panel">
+        <h2>Solution Documentation</h2>
+        <p>The **CSS Grid** properties used on the `<body>` to lay out the page were:</p>
+        <ul>
+            <li>**[Insert Body Grid Property 1 and brief explanation]**</li>
+            <li>**[Insert Body Grid Property 2 and brief explanation]**</li>
+        </ul>
+        <p>The **Flex Container** properties used to solve Puzzle A were:</p>
+        <ul>
+            <li>**[Insert Flex Property 1 and brief explanation]**</li>
+            <li>**[Insert Flex Property 2 and brief explanation]**</li>
+        </ul>
+        <p>The **Grid Container** properties used to solve Puzzle B were:</p>
+        <ul>
+            <li>**[Insert Grid Property 1 and brief explanation]**</li>
+            <li>**[Insert Grid Property 2 and brief explanation]**</li>
+        </ul>
+    </div>
+
+</body>
+</html>
